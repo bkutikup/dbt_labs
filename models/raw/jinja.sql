@@ -1,8 +1,3 @@
-{% set list = ['Snowflake', 'dbt', 'AWS'] %}
+{% set var_name = 'KSR'%}
 
-SELECT tech FROM (
-    {%- for i in list %}
-        SELECT '{{ i }}' AS tech
-        {%- if not loop.last %} UNION ALL {% endif %}
-    {%- endfor %}
-) AS technology_list
+select '{{var_name}}' as Name

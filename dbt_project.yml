@@ -78,3 +78,12 @@ seeds:
         sim_card_prefix: varchar(10)
     country_population:
 
+vars:
+  var_name_global: "KSR_datavizion"
+  database_name: "SNOWFLAKE_DBT_DATE"
+  schema_name: "SF_SCHEMA"
+  customer_state:
+  plan_type:
+  reporting_year: [2024, 2025]
+  reporting_month: [6, 7, 8]
+
