@@ -1,0 +1,1 @@
+select '{{var("var_name_global")}}' as Name
